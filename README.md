@@ -1,15 +1,22 @@
 # ember-typescript-giphy
 
-## Outline of the project 
-1. Query the giphy API and return a listing of the first page of trending gifs.
-2. Include information for the gifs you think would be useful
-3. Make sure what you build is extensible, you might be asked to change it.
-4. The specific UI is up to you. Bonus points for awesome stuff you bake into the app.
-5. Provide specific instructions for installing. For example, if you are using a library,
-please call that out, so we know to install them.
-6. Build it using a JavaScript Framework of your choice.
-7. Testing is something SoapBox takes seriously. You should too.
-
+## Outline of the project
+Pre: Build a page that returns the trending gifs on giphy.
+<pre>
+This page will have different "modes" 
+    Modes 
+  1) Grid 
+     This is the default view that the api examples shows 
+  2) Carousel Mode 
+     Probably using webgl
+ </pre>
+ 
+**Components**
+Breaking the components into smallest elements ensures extensisbility. 
+<pre>
+  1) Image Content
+  2) Grid 
+</pre>
 
 ## Ember Notes 
 Firstly, development using ember is speed up using templates via the ember cli. 
@@ -22,3 +29,12 @@ By generating a route using the cli, ember craetes a file in the "/templates" an
 
 **The Generate Component command**
 This command generates a file in the components folder ( hbs file ) which is then passed into the file created in the template. A good practice would probably be having multiple components which are then imported as components in the template file. You would pass the model that from the templates file to the component file which was originally passed from the routes files. 
+<pre> 
+  {{yield}} takes in child props passed from the parent 
+</pre>
+
+**Auto-testing with ember**
+<pre>
+1) Acceptance test 
+   a) "We can put our automated test into motion by running the test server using the ember test --server command, or ember t -s for short."
+</pre>
