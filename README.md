@@ -3,9 +3,22 @@
 ## Outline
 <pre>
 /routes
-    /
+    /home
+    /gif/{ path: '/gif/:gif_id' }
 /components
+    /grid
+    /item
+    /item/image "glimmer component" 
+/test
+    /acceptance
+        /home
+        /gif
+    /component
+        /grid
+        /item 
+        /item/image
 </pre>
+
 <pre>
 This page will have different "modes" 
     Modes 
