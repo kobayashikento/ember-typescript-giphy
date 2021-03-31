@@ -4,7 +4,6 @@
 <pre>
 /routes
     /home
-    /gif/{ path: '/gif/:gif_id' }
 /components
     /grid
     /item
