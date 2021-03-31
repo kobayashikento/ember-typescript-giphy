@@ -26,13 +26,6 @@ This page will have different "modes"
   2) Carousel Mode 
      Probably using webgl
  </pre>
- 
-**Components**
-Breaking the components into smallest elements ensures extensisbility. 
-<pre>
-  1) Image Content
-  2) Grid 
-</pre>
 
 ## Ember Notes 
 Firstly, development using ember is speed up using templates via the ember cli. 
